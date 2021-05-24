@@ -2,8 +2,11 @@
 // Author: Kevin Carvalho de jesus
 
 // importing names and functions
-import greet from "./utils.mjs";
+import { greet, askName } from "./utils.mjs";
 import { kevin, laura, luana } from "./names.mjs";
+
+// asking name
+askName();
 
 //  using imported function
 greet(kevin);
